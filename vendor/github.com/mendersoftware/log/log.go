@@ -256,7 +256,7 @@ func AddHook(hook logrus.Hook) {
 }
 
 func IsTerminal() bool {
-	return logrus.IsTerminal()
+	return false //logrus.IsTerminal()
 }
 
 func SetFormatter(formatter logrus.Formatter) {
